@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    header("Location:https://www.baidu.com");
-    exit();
+    echo 111;die;
+ 
     //return view('welcome');
 });
