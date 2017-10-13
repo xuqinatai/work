@@ -12,6 +12,7 @@
 */
 
 Route::get('/', function () {
-    header("https://www.baidu.com");
+    header("Location:https://www.baidu.com");
+    exit();
     //return view('welcome');
 });
